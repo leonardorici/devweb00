@@ -37,14 +37,23 @@
             
         }
 
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+        }
+
         
     
 </style>
 <body>
-    <div class=caixona>
-        <div class=container>
-            <a href="form.html"> Fazer loguin em nosso site </a>
-        </div>
-    </div>   
+    <section>
+        <div class=caixona>
+            <div class=container>
+                <a href="form.html"> Fazer loguin em nosso site </a>
+            </div>
+         </div>
+    </section>        
 </body>
 </html>
